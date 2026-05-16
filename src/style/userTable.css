@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.user-table {
+  margin: 1rem;
+}
+
+.user-table table {
+  width: 100%;
+}
+
+.edit,
+.delete {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.edit:hover,
+.delete:hover {
+  opacity: 0.8;
+}
